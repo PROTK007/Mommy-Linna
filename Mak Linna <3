@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Fun</title>
+  <h1>Mak mak Linna 😍</h1>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Optional: Add some styles to make it look like a button */
+    .clickable {
+      cursor: pointer;
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+<p>mak mak gonna love this</p>
+<span id="showImageText" class="clickable" onclick="showImage()">Click here 😘</span>
+  <p2>Zei sart 😘😘 "ke tha ke sart ey na <3"</p2>
+<img id="myImage" style="display:none;" src="photo_2024-01-16_22-55-43.jpg" alt="Your Image">
+
+<script>
+  function showImage() {
+    document.getElementById("myImage").style.display = "inline-block";
+    document.getElementById("showImageText").style.display = "none";
+  }
+</script>
+
+</body>
+</html>
